@@ -6,9 +6,8 @@
 int main(){
     srand(time(NULL));
     int random_number =rand()%100;
-    // printf("The random number is : %d\n",random_number);
     int n;
-    printf("Guess your number: ");
+    printf("Guess your number(0-100): ");
     scanf("%d",&n);
     int point=1;
     do 
